@@ -1,0 +1,26 @@
+﻿<Window x:Class="JanuraryExam2022_S00213943.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JanuraryExam2022_S00213943"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Margin="65,90,458,69"/>
+        <RadioButton x:Name="AllBtn" Content="All&#xD;&#xA;" HorizontalAlignment="Left" Margin="49,389,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="RegBtn" Content="Regular" HorizontalAlignment="Left" Margin="118,389,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="SenBtn" Content="Senior" HorizontalAlignment="Left" Margin="204,390,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="JunBtn" Content="Junior" HorizontalAlignment="Left" Margin="291,390,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <Label x:Name="MemberLabel" Content="Member Details" HorizontalAlignment="Left" Margin="543,44,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Member List" HorizontalAlignment="Left" Margin="65,44,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <Label x:Name="NameLbl" Content="Name :" HorizontalAlignment="Left" Margin="525,90,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="JoinDate" Content="Join Date :" HorizontalAlignment="Left" Margin="525,116,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="FeeLbl" Content="Basic Fee :" HorizontalAlignment="Left" Margin="525,142,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="PaymentSchedule" Content="Payment Shedule :" HorizontalAlignment="Left" Margin="526,168,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="RenewLbl" Content="Renewal Date :" HorizontalAlignment="Left" Margin="526,194,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="RenewDate" Content="Days to renew :" HorizontalAlignment="Left" Margin="525,220,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MemberType" Content="Member Type :" HorizontalAlignment="Left" Margin="526,246,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
